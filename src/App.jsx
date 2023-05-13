@@ -6,6 +6,7 @@ import ListDigimon from "./componen/ListDigimon";
 import Counter from "./componen/counter";
 import CartList from "./componen/CardList";
 import Register from "./componen/Register";
+import RegisterRefactor from "./componen/RegisterReafactor";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Counter />
       <CartList />
       <Register />
+      <RegisterRefactor/>
       <Footer />
     </>
   );
